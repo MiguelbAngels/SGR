@@ -1,0 +1,112 @@
+body {
+  color: #333;
+ font-family: 'Ubuntu', sans-serif;
+  font-size: 18px;
+background: #22584e;/* Old Browsers */
+background: -moz-linear-gradient(-45deg, #22584e 0%, #2a8445 0%, #379292 19%, #3a96a6 24%, #26f2a4 47%, #2fe7a6 50%, #6ba0b3 70%, #91b35d 100%); /* FF3.6+ */
+background: -webkit-gradient(left top, right bottom, color-stop(0%, #22584e), color-stop(0%, #2a8445), color-stop(19%, #379292), color-stop(24%, #3a96a6), color-stop(47%, #26f2a4), color-stop(50%, #2fe7a6), color-stop(70%, #6ba0b3), color-stop(100%, #91b35d));/* Chrome, Safari4+ */
+background: -webkit-linear-gradient(-45deg, #22584e 0%, #2a8445 0%, #379292 19%, #3a96a6 24%, #26f2a4 47%, #2fe7a6 50%, #6ba0b3 70%, #91b35d 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(-45deg, #22584e 0%, #2a8445 0%, #379292 19%, #3a96a6 24%, #26f2a4 47%, #2fe7a6 50%, #6ba0b3 70%, #91b35d 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(-45deg, #22584e 0%, #2a8445 0%, #379292 19%, #3a96a6 24%, #26f2a4 47%, #2fe7a6 50%, #6ba0b3 70%, #91b35d 100%); /* IE 10+ */
+background: linear-gradient(135deg, #22584e 0%, #2a8445 0%, #379292 19%, #3a96a6 24%, #26f2a4 47%, #2fe7a6 50%, #6ba0b3 70%, #91b35d 100%);/* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#22584e', endColorstr='#91b35d', GradientType=1 );/* IE6-9 fallback on horizontal gradient */
+background-attachment: fixed;
+}
+
+/* Form Module */
+.form-module {
+
+  position: relative;
+  background: #ffffff;
+  max-width: 500px;
+  width: 100%;
+  border-top: 5px solid #ffbe05;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+  margin: 9px auto;
+}
+.form-module:hover {
+
+  box-shadow: 3px 3px 3px rgba(178, 34, 34, 0.1);
+
+}
+.form-module .toggle {
+  cursor: pointer;
+  position: absolute;
+  top: -0;
+  right: -0;
+  background: #F8981C ;
+  width: 100%;
+  height: 30px;
+  margin: -5px 0 0;
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 30px;
+  text-align: center;
+}
+.form-module .toggle .tooltip {
+  position: absolute;
+  top: 5px;
+  right: -65px;
+  display: block;
+  background: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  padding: 5px;
+  font-size: 10px;
+  line-height: 1;
+  text-transform: uppercase;
+}
+.form-module .toggle .tooltip:before {
+  content: '';
+  position: absolute;
+  top: 5px;
+  left: -5px;
+  display: block;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-right: 5px solid rgba(0, 0, 0, 0.6);
+}
+.form-module .form {
+  display: none;
+  padding: 40px;
+}
+.form-module .form:nth-child(2) {
+  display: block;
+}
+.form-module h2 {
+  margin: 0 0 25px;
+  color: #f41616;
+  font-weight: 400;
+  text-align: center;
+}
+.form-module input {
+  outline: none;
+  display: block;
+  width: 100%;
+  border: 1px solid #d9d9d9;
+  margin: 0 0 20px;
+  padding: 10px 15px;
+  box-sizing: border-box;
+  font-wieght: 400;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+.form-module input:focus {
+
+box-shadow: 0 4px 8px 0 rgba(5, 45, 179, 0.19), 0 6px 20px 0 rgba(5, 80, 179, 0.19), 3px 0px 0px 0px rgba(5, 45, 179, 0.19);
+  color: #333333;
+
+}
+.form-module button {
+  cursor: pointer;
+  background: #2757e3;
+  width: 100%;
+  border: 3;
+  box-shadow:  5px solid rgba(0, 0, 0, 0.6);
+  padding: 10px 15px;
+  color: #ffffff;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+.form-module button:hover {
+  background: #2757e3c7;
+}

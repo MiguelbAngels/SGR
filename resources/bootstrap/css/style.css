@@ -1,0 +1,27 @@
+#buscarporcategoria{
+	text-shadow:1px 1px 1px orange;
+	font-family:serif;
+height: 200px;
+width: 200px;
+color:blue;
+font-size: 20px;
+/* border:2px blue solid;*/
+
+float: left;
+margin:5px;
+/*	font-family: miprimerafuente;;*/
+}
+#buscarporcategoria:hover{
+	text-shadow:1px 1px 1px green;
+	font-family:serif;
+height: 200px;
+width: 200px;;
+color:white;
+font-size: 20px;
+/* border:2px blue solid;*/
+
+float: left;
+margin:5px;
+/*	font-family: miprimerafuente;;*/
+}
+
