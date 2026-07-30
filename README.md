@@ -23,3 +23,12 @@
 * **Deadline Alert System:** Visual indicators for critical dates to prevent missed submissions.
 * **Relational Database Design:** Normalized MySQL schema managing users, assigned areas, report history, and notifications.
 * **Responsive Interface:** Clean UI built with Bootstrap featuring data tables, status badges, and interactive modals.
+
+## 🔑 Demo Credentials
+
+To test the application locally after importing `sgr.sql`, use the following default credentials:
+
+| Role | Username | Password |
+| :--- | :--- | :--- |
+| **Administrator** | `admin@demo.com` | `12345` |
+| **Teacher / Professor** | `teacher@demo.com` | `12345` |
